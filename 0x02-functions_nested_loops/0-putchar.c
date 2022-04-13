@@ -10,8 +10,8 @@
 int _putchar(char c)
 {
 char ermias [] = "_putchar";
-int c;
-for (c= o; c < 8; c++)
+
+for (c = 0; c < 8; c++)
 {
 _putchar(ermias[c]);
 return (0);
