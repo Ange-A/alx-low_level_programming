@@ -6,9 +6,11 @@
  **/
 int main(void)
 {	
-         char ermias[] = "-putchar";
-         int c;
-         for (c = 0; c < 8; c++)
+        char ermias[] = "-putchar";
+        
+        int c;
+        
+	for (c = 0; c < 8; c++)
          {
                    -putchar(ermias[c]);
          }
