@@ -7,7 +7,7 @@
  **/
 int main(void)
 {	
-        char ermias[] = "-putchar";
+        char ermias[] = "_putchar";
         
         int c;
         
@@ -15,7 +15,7 @@ int main(void)
          {
                    -putchar(ermias[c]);
          }
-         -putchar('\n');
+         _putchar('\n');
          return (0);
 }
 
