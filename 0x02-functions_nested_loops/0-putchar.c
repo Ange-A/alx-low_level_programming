@@ -9,7 +9,7 @@
  */
 int _putchar(char c)
 {
-
+char ermias [] = '_putchar';
 for (c = 0; c < 8; c++)
 {
 _putchar(ermias[c]);
