@@ -1,5 +1,8 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 #include "main.h"
+
 /**
  * main -  entry block
  * @void: no argument
@@ -13,7 +16,7 @@ int main(void)
         
 	for (c = 0; c < 8; c++)
          {
-                   -putchar(ermias[c]);
+                   _putchar(ermias[c]);
          }
          _putchar('\n');
          return (0);
