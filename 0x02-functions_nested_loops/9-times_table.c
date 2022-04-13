@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * times_table - prints the 9 times table, starting with 0
+ * times_table - prints the times table from 0 - 9
  *Returns Always 0 (success)
  */
 void times_table(void)
@@ -28,8 +28,11 @@ else if (res < 10 && j != 0)
 _putchar(' ');
 _putchar((res % 10) + '0');
 }
+else
+_putchar((res % 10) + '0');
 }
-}
+
 _putchar('\n');
+}
 
 }
