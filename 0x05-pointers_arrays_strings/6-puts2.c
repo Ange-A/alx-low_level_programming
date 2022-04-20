@@ -7,7 +7,7 @@
  * Return: void which means answer is correct
  */
 
-void puts2(char *str);
+void puts2(char *str)
 {
 int a;
 
