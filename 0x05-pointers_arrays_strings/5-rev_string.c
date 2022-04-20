@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * rev_string -  reverses a string
+ * rev_string - reverses a string
  * @s: A pointer that will be changed
  *
  * Return: void
@@ -10,7 +10,7 @@
 void rev_string(char *s)
 {
 char *start_C, *end_C, C;
-int i. count;
+int i, count;
 int length = 0;
 
 for (i = 0; s[i]; i++)
