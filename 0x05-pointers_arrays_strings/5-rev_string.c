@@ -2,12 +2,14 @@
 
 /**
  * rev_string -  reverses a string
+ * @s: A pointer that will be changed
  *
+ * Return: void
  */
 
 void rev_string(char *s)
 {
-char *star_C, *end_C, C;
+char *start_C, *end_C, C;
 int i. count;
 int length = 0;
 
