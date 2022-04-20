@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * puts_half - prints half of a string
- * @str: A pointer that will be changed
+ * @str: A pointer that to an int that will be changed
  * Return: void when answer is correct
  */
 
