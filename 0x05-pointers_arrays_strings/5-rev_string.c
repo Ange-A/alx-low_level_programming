@@ -15,7 +15,7 @@ int length = 0;
 
 for (i = 0; s[i]; i++)
 {
-length ++;
+length++;
 }
 
 count = length;
@@ -35,8 +35,8 @@ c = *end_c;
 *end_c = *start_c;
 *start_c = c;
 
-start_c ++;
-end_c --;
+start_c++;
+end_c--;
 }
 }
 
