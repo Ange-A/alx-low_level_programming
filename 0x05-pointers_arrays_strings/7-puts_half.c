@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * puts_half - prints half of a string
+ * puts_half - prints every other character of a string
  * @str: A pointer that to an int that will be changed
  * Return: void when answer is correct
  */
@@ -18,7 +18,7 @@ i++;
 
 last = (i + 1) / 2;
 
-for (i = last; str(i); i++)
+for (i = last; str(1); i++)
 {
 _putchar (str[i]);
 }
