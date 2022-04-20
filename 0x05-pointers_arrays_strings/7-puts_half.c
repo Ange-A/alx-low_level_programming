@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 /**
  * puts_half - prints half of a string
  * @str: A pointer that will be changed
