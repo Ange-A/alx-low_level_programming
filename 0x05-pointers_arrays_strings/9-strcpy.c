@@ -18,5 +18,6 @@ i++;
 }
 dest[i] = '\0';
 
-Return (dest);
+return (dest);
+
 }
