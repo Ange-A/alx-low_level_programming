@@ -7,7 +7,7 @@
  * Return: void which means the answer is correct
  */
 
-void print_array(int *a, int n);
+void print_array(int *a, int n)
 
 {
 int i;
