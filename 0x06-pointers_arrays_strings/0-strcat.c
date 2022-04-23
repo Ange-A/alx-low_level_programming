@@ -7,16 +7,24 @@
  *
  *Return: a pointer to the resulting string
  */
-char *_strcat(char *dest, char *src)
+char *_strcat(char* dest, char *src){
+int i, j;
+
+i = 0;
+j = 0;
+
+while (dest[i] != '\0')
+	i++;
+
+while (src[j] != '\0')
 {
-char ch1[50]= "dest";
-char ch2[50]= "src";
 
-printf("\n 1st String : [ %s]",ch1);
-printf("\n\n 2nd String : [ %s ]",ch2);
+dest[i] = src[j];
+ j++;
+ i++;
 
-strcat(ch1,ch2);
-printf("\n\n Concatenated String is : [ %s ]\n",ch1);
+dest[i] = '\0';
 
-return 0;
+return (dest);
+
 }
