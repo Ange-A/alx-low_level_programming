@@ -2,13 +2,13 @@
 #include <stdio.h>
 
 /**
- **_strspn - gets length of a prefix substring
+ * *_strspn - gets length of a prefix substring
  * @s: string to be searched
  * @accept: string containing value to be searched
  *
- * Return: returns number of bytes in initial segment
+ * Return: returns number of bytes in intial segment
  */
-unsigned int _strpsn(char *s, char *accept)
+unsigned int _strspn(char *s, char *accept)
 {
 	int a, b, c, value;
 
@@ -26,10 +26,11 @@ unsigned int _strpsn(char *s, char *accept)
 			}
 		}
 		if (value == 0)
-                {
+		{
 			return (c);
 		}
 	}
 
 	return (0);
 }
+
