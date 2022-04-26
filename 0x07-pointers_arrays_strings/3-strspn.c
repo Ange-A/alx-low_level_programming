@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * *_strspn - gets length of a prefix substring
+ **_strspn - gets length of a prefix substring
  * @s: string to be searched
  * @accept: string containing value to be searched
  *
