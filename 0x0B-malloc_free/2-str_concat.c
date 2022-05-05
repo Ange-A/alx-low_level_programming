@@ -3,16 +3,15 @@
 
 /**
  * *str_concat -  concatenates two strings
- * @s1: the string that will be appended on
- * @s2: the string to append
- *
- * Return: pointer to the new string created (success), or NULL (Error)
+ * @s1: string to concatenate
+ * @s2: other string to concatenate
+ * Return: pointer to the new string created (Success), or NULL (Error)
  */
 char *str_concat(char *s1, char *s2)
 {
 	char *s3;
 	unsigned int i = 0, j = 0, len1 = 0, len2 = 0;
-	
+
 	while (s1 && s1[len1])
 		len1++;
 	while (s2 && s2[len2])
