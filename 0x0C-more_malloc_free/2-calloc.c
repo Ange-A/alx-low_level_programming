@@ -1,4 +1,4 @@
-#include "mai.h"
+#include "main.h"
 
 /**
  * _calloc - allocates memory using malloc and initializes it to zero
