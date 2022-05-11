@@ -7,7 +7,7 @@
  */
 int maint (void)
 {
-	printf("%s\n", --FILE--);
+	printf("%s\n", _ _FILE_ _);
 
 	return (0);
 }
