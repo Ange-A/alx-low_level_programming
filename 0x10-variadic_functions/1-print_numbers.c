@@ -2,10 +2,10 @@
 #include <stdarg.h>
 #include <stdio.h>
 /**
- *print_strings - prints strings followed by a new line
- *@seperator: char
- *@n: variadic variable count
- *Return: void
+ *print_strings - print variadic number
+ * @seperator: char
+ * @n: variadic variable count
+ * Return: void
  */
 void print_numbers(const char *seperator, const unsigned int n, ...)
 {
