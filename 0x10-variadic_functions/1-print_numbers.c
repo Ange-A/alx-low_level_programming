@@ -24,4 +24,3 @@ for (i = 0; i < n; i++)
 	printf("\n");
 	va_end(list);
 }
-© 2022 GitHub, Inc.
